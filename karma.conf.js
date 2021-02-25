@@ -20,14 +20,14 @@ module.exports = function (config) {
       fixWebpackSourcePaths: true
     },
     angularCli: {
-      environment: ''
+      environment: 'dev'
     },
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: true,
-    browsers: [''],
+    browsers: ['Chrome'],
     singleRun: false
   });
 };
